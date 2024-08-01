@@ -1,0 +1,61 @@
+body{
+    text-align: center;
+    align-items: center;
+}
+#numinput{
+    width: 140px;
+    height: 70px;
+    font-size: 50px;
+    border: #007BFF solid 2px;
+}
+#numinput, .opts:hover{
+    border: #0056b3 solid 2px;
+}
+#heading{
+    font-size: 7vw;
+}
+label{
+    font-size: 50px;
+}
+#generatebtn, #copy{
+    font-size: 2vw;
+    background-color: #1985f9;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#generatebtn:hover, #copy:hover{
+    background-color: #0056b3;
+}
+#errormessage{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.opts{
+    text-align: center;
+    border: #007BFF solid 2px;
+    max-width: 25%;
+    padding: 10px;
+    position: relative;
+    margin: 0 auto;
+}
+.checkcustom{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.checktext{
+    font-size: 30px;
+}
+#copy{
+    display: none;
+    text-align: center;
+    margin: 0 auto;
+}
+.pass{
+    font-size: 50px;
+}
+
